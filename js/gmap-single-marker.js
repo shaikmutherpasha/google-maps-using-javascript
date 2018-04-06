@@ -1,13 +1,13 @@
 function initMap() {
 
   var options = {
-    zoom: 8,
-    center: { lat: 17.385044, lng: 78.486671 }
+    zoom: 4,
+    center: { lat: 37.0902, lng: -95.7129 }
   }
   var map = new google.maps.Map(document.getElementById('map'), options);
 
   var marker = new google.maps.Marker({
-      position: { lat: 17.447412, lng: 78.37623 },
+      position: { lat: 40.7128, lng: -74.0060 },
       map: map,
       icon: 'map-marker.png'
   });
